@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-   - source: /code
+   - source: /prod/webcode
      destination: /var/www/html
+    - source: /config
+     destination: /tmp
 permissions:
    - object: /var/www/html
      pattern: "**"
