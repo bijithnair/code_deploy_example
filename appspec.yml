@@ -3,7 +3,7 @@ os: linux
 files:
    - source: /prod/webcode
      destination: /var/www/html
-    - source: /config
+    - source: /prod/config
      destination: /tmp
 permissions:
    - object: /var/www/html
